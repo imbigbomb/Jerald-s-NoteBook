@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "运维/CentOS7更换yum源.md",
+                "file": "运维/饥荒专用服务器Windows开服教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CentOS7更换yum源"
+              "title": "饥荒专用服务器Windows开服教程"
             }
           }
         ]
@@ -140,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "运维/饥荒专用服务器Windows开服教程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 饥荒专用服务器Windows开服教程"
             }
           },
           {
@@ -159,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,11 +177,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e3477398ec0f68a",
+  "active": "031e454a2f0626e5",
   "lastOpenFiles": [
-    "运维/通过Microsoft官方安装O365.md",
     "运维/给Openwrt颁发证书.md",
+    "运维/饥荒专用服务器Windows开服教程.md",
     "运维/CentOS7更换yum源.md",
+    "运维/我的世界服务器多核调优BAT.md",
+    "运维/通过Microsoft官方安装O365.md",
     "README.md",
     "Untitled.canvas",
     "images/flowers.png",
