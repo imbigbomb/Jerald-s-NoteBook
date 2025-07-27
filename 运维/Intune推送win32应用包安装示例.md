@@ -29,4 +29,5 @@ WinSCP-6.5.3-Setup.exe /S
 "C:\Program Files (x86)\WinSCP\unins000.exe" /VERYSILENT /NORESTART
 
 ```
-6. 继续填写Program页，
+6. 继续填写Program页，完成后点击Next。![[Pasted image 20250727153212.png]]
+7. 
