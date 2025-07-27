@@ -5,7 +5,7 @@
 
 # 一、转换格式
 以WinSCP软件安装包为例，将转换器.exe和软件安装包放到一起比较方便操作。
-![[/image/Pasted image 20250727150404.png]]
+![示意图](../image/Pasted%20image%2020250727150404.png)
 1. 在地址栏输入cmd回车。 ![[Pasted image 20250727150519.png]]
 2. 输入命令，将WinSCP-6.5.3-Setup.exe转换为Intunewin格式。这里也可选双击运行IntuneWinAppUtil.exe根据命令提示框内提示操作。
 ```
