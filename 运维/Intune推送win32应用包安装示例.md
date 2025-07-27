@@ -26,6 +26,6 @@ IntuneWinAppUtil.exe -c C:\YourSourceFolder -s WinSCP-6.5.3-Setup.exe -o C:\Outp
 
 # 卸载命令
 
-"C:\Program Files\7-Zip\Uninstall.exe" /S
+"C:\Program Files (x86)\WinSCP\unins000.exe" /VERYSILENT /NORESTART
 
 ```
