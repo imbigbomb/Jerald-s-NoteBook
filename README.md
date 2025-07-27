@@ -1,4 +1,4 @@
-## 大肥的笔记
+## 大肥笔记
 
 - [CentOS7更换yum源](CentOS7更换yum源.md)
 - [给Openwrt颁发证书](给Openwrt颁发证书.md)
