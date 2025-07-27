@@ -15,10 +15,10 @@ IntuneWinAppUtil.exe -c C:\YourSourceFolder -s WinSCP-6.5.3-Setup.exe -o C:\Outp
 
 # 二、创建Apps
 1. 在Intune管理中心中，点击左侧的Apps，在右侧选择Windows平台。 ![[Pasted image 20250727145702.png]]
-2. 点击Create创建一个App，并在右侧选择App类型为Win32。![[Pasted image 20250727145959.png]]
-3. 点击下方的Select，在下一页面点击Select app package file选择我们转换好的Intunewin文件。随后点击OK。![[Pasted image 20250727151307.png]]
-4. App信息请按需填写，有星号\*的为必填。完成后点击Next。![[Pasted image 20250727151903.png]]
-5. 填写安装命令和卸载命令，每个应用都会不同，以WinSCP示例: ```
+- 点击Create创建一个App，并在右侧选择App类型为Win32。![[Pasted image 20250727145959.png]]
+2. 点击下方的Select，在下一页面点击Select app package file选择我们转换好的Intunewin文件。随后点击OK。![[Pasted image 20250727151307.png]]
+-  App信息请按需填写，有星号\*的为必填。完成后点击Next。![[Pasted image 20250727151903.png]]
+3. 填写安装命令和卸载命令，每个应用都会不同，以WinSCP示例: ```
 ```
 # 安装命令 (静默的/S一定是大写的S)
 
@@ -29,6 +29,10 @@ WinSCP-6.5.3-Setup.exe /S
 "C:\Program Files (x86)\WinSCP\unins000.exe" /VERYSILENT /NORESTART
 
 ```
-6. 继续填写Program页，完成后点击Next。![[Pasted image 20250727153212.png]]
-7. 填写系统需求，填写完成后点击Next。![[Pasted image 20250727153357.png]]
-8. 检测规则，用于检测用户是否已经安装了该软件，我们选择手动配置规则，并点击Add。![[Pasted image 20250727153519.png]]在右侧弹出的子菜单中，输入文件夹路径、文件名、检测模式选择[文件或文件夹是否存在]、![[Pasted image 20250727153848.png]]
+- 填写Program页，完成后点击Next。![[Pasted image 20250727153212.png]]
+4. 填写系统需求，填写完成后点击Next。![[Pasted image 20250727153357.png]]
+5. 检测规则，用于检测用户是否已经安装了该软件，我们选择手动配置规则，并点击Add。![[Pasted image 20250727153519.png]]在右侧弹出的子菜单中，输入文件夹路径、文件名、检测模式选择[文件或文件夹是否存在]、Associated with a 32-bit app on 64-bit clients选择[YES]因为WinSCP默认安装到x86文件夹。完成后点击OK、Next。![[Pasted image 20250727153848.png]]
+6. Dependence和Supersedence
+- Dependence是依赖项，WinSCP无需依赖程序，直接Next。 
+- Supersedence用于取代其他应用，例如你安装WinSCP就可以设置自动卸载掉MobaX，或者更新WinSCP，则自动卸载先前的旧版本。这根据你自己需求填写，无需求直接Next。
+4. 123？？？？？？？？？3ob
