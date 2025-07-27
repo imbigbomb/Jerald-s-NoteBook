@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dba6c4f7eff03d45",
+        "id": "11148c040e31991a",
         "type": "tabs",
         "children": [
           {
-            "id": "031e454a2f0626e5",
+            "id": "3e0f4b864914caf5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Intune推送win32应用包安装示例/Pasted image 20250727145702.png"
+                "file": "运维/Intune推送win32应用包安装示例.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250727145702"
+              "icon": "lucide-file",
+              "title": "Intune推送win32应用包安装示例"
             }
           }
         ]
@@ -175,12 +177,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e3477398ec0f68a",
+  "active": "3e0f4b864914caf5",
   "lastOpenFiles": [
+    "README.md",
+    "images/Intune推送win32应用包安装示例/Pasted image 20250727145702.png",
     "images/flowers.png",
     "运维/Intune推送win32应用包安装示例.md",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727150519.png",
-    "images/Intune推送win32应用包安装示例/Pasted image 20250727145702.png",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727145959.png",
     "images/Intune推送win32应用包安装示例",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727153519.png",
@@ -194,7 +197,6 @@
     "运维/给Openwrt颁发证书.md",
     "运维/通过Microsoft官方安装O365.md",
     "运维/饥荒专用服务器Windows开服教程.md",
-    "README.md",
     "Untitled.canvas",
     "images"
   ]
