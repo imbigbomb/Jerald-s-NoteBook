@@ -11,14 +11,12 @@
             "id": "031e454a2f0626e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "运维/Intune推送win32应用包安装示例.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Intune推送win32应用包安装示例/Pasted image 20250727145702.png"
               },
-              "icon": "lucide-file",
-              "title": "Intune推送win32应用包安装示例"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250727145702"
             }
           }
         ]
@@ -177,13 +175,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "031e454a2f0626e5",
+  "active": "9e3477398ec0f68a",
   "lastOpenFiles": [
+    "images/flowers.png",
+    "运维/Intune推送win32应用包安装示例.md",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727150519.png",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727145702.png",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727145959.png",
-    "images/flowers.png",
-    "运维/Intune推送win32应用包安装示例.md",
     "images/Intune推送win32应用包安装示例",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727153519.png",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727161055.png",
@@ -191,7 +189,6 @@
     "images/Intune推送win32应用包安装示例/Pasted image 20250727161018.png",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727160927.png",
     "images/Intune推送win32应用包安装示例/Pasted image 20250727160650.png",
-    "images/Intune推送win32应用包安装示例/Pasted image 20250727155712.png",
     "运维/CentOS7更换yum源.md",
     "运维/我的世界服务器多核调优BAT.md",
     "运维/给Openwrt颁发证书.md",
