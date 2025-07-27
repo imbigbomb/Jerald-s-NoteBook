@@ -18,14 +18,15 @@ IntuneWinAppUtil.exe -c C:\YourSourceFolder -s WinSCP-6.5.3-Setup.exe -o C:\Outp
 2. 点击Create创建一个App，并在右侧选择App类型为Win32。![[Pasted image 20250727145959.png]]
 3. 点击下方的Select，在下一页面点击Select app package file选择我们转换好的Intunewin文件。随后点击OK。![[Pasted image 20250727151307.png]]
 4. App信息请按需填写，有星号\*的为必填。完成后点击Next。![[Pasted image 20250727151903.png]]
-5. 填写安装命令和卸载命令，示例: ```
+5. 填写安装命令和卸载命令，每个应用都会不同，以WinSCP示例: ```
 ```
-# 安装命令
+# 安装命令 (静默的/S一定是大写的S)
 
-7z1900-x64.exe /S
+WinSCP-6.5.3-Setup.exe /S
 
 # 卸载命令
 
 "C:\Program Files (x86)\WinSCP\unins000.exe" /VERYSILENT /NORESTART
 
 ```
+6. 继续填写Program页，
